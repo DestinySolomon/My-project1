@@ -1697,4 +1697,41 @@ article a {
   .last-map {
     height: 30vh;
   }
+  .donation-box {
+  max-width: 90%;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.donation-box img {
+  width: 29%;
+  margin-left: 5%;
+}
+
+.donation-box h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+
+.donation-box h3 {
+  text-align: center;
+}
+form {
+  width: 75%;
+  height: 55vh;
+  margin-left: 10%;
+}
+
+.amount-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 7%;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
 }
