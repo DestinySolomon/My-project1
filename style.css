@@ -1673,7 +1673,7 @@ article a {
   background-color: rgb(255, 255, 255);
   align-content: center;
   width: 80%;
-  height: 60rem;
+  height: 50rem;
   /* margin-left: 15%;
   padding: 35px; */
   box-shadow: 2px 2px 7px rgb(218, 218, 218);
@@ -1682,6 +1682,6 @@ article a {
   width: 95%;
   height: 12vh;
   margin: 4px;
- 
 }
+
 }
