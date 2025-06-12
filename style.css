@@ -1683,5 +1683,18 @@ article a {
   height: 12vh;
   margin: 4px;
 }
+  .contactForm input[type="submit"] {
+    margin-top: 21px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: none;
+    width: 40%;
+    height: 5vh;
+    background-color: #03045e;
+    color: wheat;
+  }
 
+  .last-map {
+    height: 30vh;
+  }
 }
