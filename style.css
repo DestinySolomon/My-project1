@@ -1092,10 +1092,6 @@ legend {
   color: sienna;
 }
 
-iframe {
-  width: 100%;
-  margin-top: 2%;
-}
 
 /* _____CONTACT PAGE STYLE______ */
 
@@ -1644,5 +1640,12 @@ article a {
 
   .vow button{
     width: 30%;
+  }
+
+  /* __VOLUNTEER PAGE___ */
+
+  .volunteerForm {
+    width: 70%;
+    height: 111rem;
   }
 }
