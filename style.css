@@ -4,13 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
-  background-position: top;
-  background-clip: padding-box;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-}
+
 
 /* ____NAVIGATION BAR STYLES______ */
 header {
@@ -59,7 +53,7 @@ header {
 .topwrit h1 {
   text-transform: capitalize;
   color: rgb(156, 197, 222);
-  margin: 5%;
+  /* margin: 5%; */
   font-size: 68px;
   margin-bottom: 8px;
   margin-top: 0;
