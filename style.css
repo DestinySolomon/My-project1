@@ -1431,164 +1431,174 @@ article a {
 
   /* ABOUT MEDIA QUERIES */
 
-  .beginning hr{
+  .beginning hr {
     margin-left: 35%;
   }
 
-  .beginning h1{
+  .beginning h1 {
     font-size: 20px;
   }
 
-   .image-and-text {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin-top: 20px;
-   }
+  .image-and-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
 
-   .only-text hr{
+  .only-text hr {
     margin-left: 10%;
-   }
+  }
 
-   .image-and-text img{
+  .image-and-text img {
     width: 89%;
-   }
+  }
 
-   .educCare hr{
+  .educCare hr {
     margin-left: 29%;
-   }
-   .educCare h2{
+  }
+  .educCare h2 {
     font-size: 17px;
-   }
+  }
 
-   
-.health-and-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #8ecae63e;
-  background-size: 100%;
-  padding: 20px;
-  align-items: center;
-}
+  .health-and-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8ecae63e;
+    background-size: 100%;
+    padding: 20px;
+    align-items: center;
+  }
 
-.image-and-text h2{
-  font-size: 20px;
-}
-.image-side img{
-  width: 100%;
-}
+  .image-and-text h2 {
+    font-size: 20px;
+  }
+  .image-side img {
+    width: 100%;
+  }
 
-.textAlone {
-  text-align: right;
- width: 100%;
-}
+  .textAlone {
+    text-align: right;
+    width: 100%;
+  }
 
-.textAlone hr {
-  width: 80px;
-  height: 3px;
-  background-color: #0077b6;
-  border: none;
-  margin-left: 300px;
-}
-.textAlone h2 {
-  margin-left: 57%;
-  font-size: 20px;
-  margin-left: 10px;
-}
+  .textAlone hr {
+    width: 80px;
+    height: 3px;
+    background-color: #0077b6;
+    border: none;
+    margin-left: 300px;
+  }
+  .textAlone h2 {
+    margin-left: 57%;
+    font-size: 20px;
+    margin-left: 10px;
+  }
 
-.textAlone p {
-  margin-left: 50%;
-  font-size: larger;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
+  .textAlone p {
+    margin-left: 50%;
+    font-size: larger;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 
-.security {
-  background-color: #8ecae63e;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 20px;
-  max-height: fit-content;
-}
-.secure-img img {
-  width: 100%;
-  max-height: max-content;
-}
-.security h2 {
-  font-size: 25px;
-}
+  .security {
+    background-color: #8ecae63e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    max-height: fit-content;
+  }
+  .secure-img img {
+    width: 100%;
+    max-height: max-content;
+  }
+  .security h2 {
+    font-size: 25px;
+  }
 
-.security hr {
-  width: 80px;
-  height: 3px;
-  background-color: #0077b6;
-  border: none;
-  margin-top: 9px;
-  margin-left: 35%;
-}
-.security p {
-  font-size: 21px;
-  margin-top: 9px;
-}
+  .security hr {
+    width: 80px;
+    height: 3px;
+    background-color: #0077b6;
+    border: none;
+    margin-top: 9px;
+    margin-left: 35%;
+  }
+  .security p {
+    font-size: 21px;
+    margin-top: 9px;
+  }
 
-.textsOnly h1{
-  font-size: 20px;
-}
-.textsOnly p {
-  font-size: 15px;
+  .textsOnly h1 {
+    font-size: 20px;
+  }
+  .textsOnly p {
+    font-size: 15px;
+  }
 
-}
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
 
-.intro{
-  display: flex;
-  flex-direction: column;
-}
+  .intro h1 {
+    font-size: 20px;
+  }
 
-.intro h1{
-  font-size: 20px;
-}
+  article h1 {
+    font-size: 20px;
+  }
 
- article h1{
-  font-size: 20px;
-}
+  .pic img {
+    width: 90%;
+    height: 50vh;
+  }
 
-.pic img{
-  width: 90%;
-  height: 50vh;
-}
+  .goal {
+    background-color: #8ecae63e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4%;
+  }
 
-.goal {
-  background-color: #8ecae63e;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-top: 4%;
-}
+  .mission {
+    width: 50%;
+  }
+  .mission h5 {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 5%;
+  }
 
+  .mission hr {
+    margin-left: 20%;
+    width: 50%;
+  }
 
-.mission {
-  width: 50%;
-}
-.mission h5 {
-  width: 100%;
-  font-size: 25px;
-  margin-top: 5%;
-}
+  .mission p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .foto img {
+    width: 100%;
+  }
 
-.mission hr {
-  margin-left: 20%;
-  width: 50%;
-}
+  .plan {
+    display: flex;
+    flex-direction: column;
+  }
+  .fotos img{
+    width: 100%;
+  }
 
-.mission p {
-  width: 100%;
-  font-size: 20px;
-}
-.foto img {
-  width: 100%;
-}
-
+  section{
+    display: flex;
+    flex-direction: column;
+  
+  }
 }
