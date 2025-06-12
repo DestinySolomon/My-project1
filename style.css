@@ -268,12 +268,14 @@ iframe {
 .map-one {
   border: none;
   border-radius: 0%;
-  width: 100%;
+  width: 80%;
   height: 70vh;
 }
 
 /* ____FOOTER PAGE STYLES______ */
-
+footer{
+  width: 90%;
+}
 .bottom {
   display: flex;
   justify-content: center;
@@ -1343,14 +1345,14 @@ article a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(40, 40, 40, 0);
+    background-color: rgba(5, 5, 5, 0.326);
     background-blend-mode: multiply;
     width: 100%;
   }
 
   .topwrit h1 {
     text-transform: capitalize;
-    color: black;
+    color: rgb(52, 162, 231);
     font-size: 68px;
     margin-bottom: 8px;
     padding-top: 80%;
@@ -1411,5 +1413,12 @@ article a {
 
 .partna1{
 width: 97%;
+}
+
+footer{
+  width: 90%;
+}
+.map-one{
+  width: 90%;
 }
 }
