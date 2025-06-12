@@ -1609,4 +1609,32 @@ article a {
     justify-content: center;
     padding: 5%;
   }
+
+  .involve h1{
+    font-size: 20px;
+  }
+
+  .portalTexts h2 {
+    font-size: 20px;
+  }
+  .getIn{
+    width: 100%;
+  }
+  .smile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .smileText p{
+    padding: 0;
+    margin-top: 0;
+    font-size: 22px;
+  }
+
+  .smileFoto img {
+    width: 100%;
+   
+  }
 }
