@@ -1374,7 +1374,9 @@ article a {
   .vidText hr {
     margin-left: 42%;
   }
-
+   section{
+    width: 98%;
+   }
   .videos {
     display: grid;
     grid-template-columns: repeat(2, 42%);
@@ -1401,7 +1403,6 @@ article a {
   width: 90%;
   border-radius: 1rem;
   align-content: center;
-  /* margin-right: 7px; */
   margin-left: 7px;
 }
 
