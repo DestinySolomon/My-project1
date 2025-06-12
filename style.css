@@ -551,7 +551,7 @@ body {
 }
 
 .textAlone {
-  flex: 1;
+  /* flex: 1; */
   text-align: right;
   margin-right: 400px;
 }
@@ -1435,6 +1435,10 @@ article a {
     margin-left: 35%;
   }
 
+  .beginning h1{
+    font-size: 20px;
+  }
+
    .image-and-text {
      display: flex;
      flex-direction: column;
@@ -1454,15 +1458,52 @@ article a {
    .educCare hr{
     margin-left: 29%;
    }
+   .educCare h2{
+    font-size: 17px;
+   }
 
    
 .health-and-image {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #8ecae63e;
   background-size: 100%;
   padding: 20px;
   align-items: center;
 }
-  }
+
+.image-and-text h2{
+  font-size: 20px;
+}
+.image-side img{
+  width: 100%;
+}
+
+.textAlone {
+  /* flex: 1; */
+  text-align: right;
+ width: 100%;
+}
+
+.textAlone hr {
+  width: 80px;
+  height: 3px;
+  background-color: #0077b6;
+  border: none;
+  margin-left: 300px;
+}
+.textAlone h2 {
+  margin-left: 57%;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.textAlone p {
+  margin-left: 50%;
+  font-size: larger;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+}
