@@ -1505,4 +1505,40 @@ article a {
   margin-bottom: 5px;
 }
 
+.security {
+  background-color: #8ecae63e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  max-height: fit-content;
+}
+.secure-img img {
+  width: 100%;
+  max-height: max-content;
+}
+.security h2 {
+  font-size: 25px;
+}
+
+.security hr {
+  width: 80px;
+  height: 3px;
+  background-color: #0077b6;
+  border: none;
+  margin-top: 9px;
+  margin-left: 35%;
+}
+.security p {
+  font-size: 20px;
+  margin-top: 9px;
+}
+
+.textsOnly h1{
+  font-size: 20px;
+}
+.textsOnly p {
+  font-size: 15px;
+
+}
 }
