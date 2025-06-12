@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 /* ____NAVIGATION BAR STYLES______ */
 header {
   width: 100%;
@@ -273,7 +271,7 @@ iframe {
 }
 
 /* ____FOOTER PAGE STYLES______ */
-footer{
+footer {
   width: 90%;
 }
 .bottom {
@@ -1374,9 +1372,9 @@ article a {
   .vidText hr {
     margin-left: 42%;
   }
-   section{
+  section {
     width: 98%;
-   }
+  }
   .videos {
     display: grid;
     grid-template-columns: repeat(2, 42%);
@@ -1398,36 +1396,73 @@ article a {
   }
 
   .details {
-  border: 2px solid grey;
-  height: 31vh;
-  width: 90%;
-  border-radius: 1rem;
-  align-content: center;
-  margin-left: 7px;
-}
+    border: 2px solid grey;
+    height: 31vh;
+    width: 90%;
+    border-radius: 1rem;
+    align-content: center;
+    margin-left: 7px;
+  }
 
-.partners-info {
-  display: grid;
+  .partners-info {
+    display: grid;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .partna1 {
+    width: 97%;
+  }
+  .partna1 img {
+    margin-left: 0;
+    width: 77%;
+  }
+
+  footer {
+    margin-top: 20%;
+    width: 90%;
+  }
+  .map-one {
+    width: 90%;
+  }
+  .copy {
+    width: 100%;
+  }
+
+  /* ABOUT MEDIA QUERIES */
+
+  .beginning hr{
+    margin-left: 35%;
+  }
+
+   .image-and-text {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+   }
+
+   .only-text hr{
+    margin-left: 10%;
+   }
+
+   .image-and-text img{
+    width: 89%;
+   }
+
+   .educCare hr{
+    margin-left: 29%;
+   }
+
+   
+.health-and-image {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  width: 90%;
+  background-color: #8ecae63e;
+  background-size: 100%;
+  padding: 20px;
+  align-items: center;
 }
-
-.partna1{
-width: 97%;
-}
-.partna1 img {
-  margin-left: 0;
-  width: 77%;
-}
-
-footer{
-  margin-top: 20%;
-  width: 90%;
-}
-.map-one{
-  width: 90%;
-}
-.copy{
-  width: 100%;
-}
-}
+  }
