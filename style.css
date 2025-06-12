@@ -1637,4 +1637,12 @@ article a {
     width: 100%;
    
   }
+
+  .vow h4 {
+    font-size: 20px;
+  }
+
+  .vow button{
+    width: 30%;
+  }
 }
