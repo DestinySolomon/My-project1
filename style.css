@@ -1753,6 +1753,8 @@ form {
 }
 }
 
+
+
 /* ___MEDIA QUERIES FOR IPADS___ */
 @media screen and(min-width:769px) and (max-width: 1024px) {
   header {
@@ -1800,7 +1802,7 @@ form {
   .counter {
     background-color: #0076b633;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     justify-content: space-between;
     height: 62vh;
     width: 90%;
