@@ -1404,7 +1404,8 @@ article a {
     display: grid;
     justify-content: space-between;
     width: 90%;
-    
+    row-gap: 20px;
+    margin-left: 3%;
   }
 
   .partna1 {
