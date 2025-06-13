@@ -543,17 +543,15 @@ body {
 
 .health-and-image {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #8ecae63e;
   background-size: 100%;
-  padding: 20px;
   align-items: center;
 }
 
 .textAlone {
-  /* flex: 1; */
-  text-align: right;
-  margin-right: 400px;
+  margin-left: 0%;
+ text-align: center;
 }
 
 .textAlone hr {
@@ -1450,8 +1448,8 @@ article a {
     margin-top: 20px;
   }
 
-  .only-text hr {
-    margin-left: 10%;
+  .only-text h2 {
+   text-align: center;
   }
 
   .image-and-text img {
@@ -1463,6 +1461,7 @@ article a {
   }
   .educCare h2 {
     font-size: 17px;
+  
   }
 
   .health-and-image {
@@ -1471,7 +1470,6 @@ article a {
     justify-content: center;
     background-color: #8ecae63e;
     background-size: 100%;
-    padding: 20px;
     align-items: center;
   }
 
@@ -1483,8 +1481,9 @@ article a {
   }
 
   .textAlone {
-    text-align: right;
-    width: 100%;
+     margin-left: 0%;
+    text-align: center;
+    width: 90%;
   }
 
   .textAlone hr {
@@ -1492,7 +1491,7 @@ article a {
     height: 3px;
     background-color: #0077b6;
     border: none;
-    margin-left: 300px;
+    margin-left: 35%;
   }
   .textAlone h2 {
     margin-left: 57%;
@@ -1501,7 +1500,6 @@ article a {
   }
 
   .textAlone p {
-    margin-left: 50%;
     font-size: larger;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -1521,6 +1519,7 @@ article a {
   }
   .security h2 {
     font-size: 25px;
+    text-align: center;
   }
 
   .security hr {
