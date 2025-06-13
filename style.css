@@ -1350,7 +1350,9 @@ article a {
     padding-top: 90%;
     font-family: "Roboto", sans-serif;
   }
-
+  .para1{
+    font-size: 25px;
+  }
   .pOne {
     text-transform: capitalize;
     color: rgb(3, 26, 40);
