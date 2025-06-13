@@ -1966,11 +1966,13 @@ form {
   height: 15vh;
 }
 
+.last-map {
+    height: 35vh;
+  }
+
 /* ____DONATE PAGE STYLES______ */
 
-.last-map {
-    height: 30vh;
-  }
+
   .donation-box {
   max-width: 90%;
   margin: auto;
