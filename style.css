@@ -1344,16 +1344,16 @@ article a {
 
   .topwrit h1 {
     text-transform: capitalize;
-    color: rgb(83, 176, 235);
-    font-size: 68px;
+    color: rgb(3, 26, 40);
+    font-size: 30px;
     margin-bottom: 8px;
-    padding-top: 80%;
+    padding-top: 90%;
     font-family: "Roboto", sans-serif;
   }
 
   .pOne {
     text-transform: capitalize;
-    color: rgb(5, 86, 137);
+    color: rgb(3, 26, 40);
     margin: 5%;
     font-size: 27px;
     font-family: "Times New Roman", Times, serif;
@@ -1855,6 +1855,10 @@ form {
   }
   .copy {
     width: 100%;
+  }
+
+  .map-one{
+    margin-left: 4%;
   }
 
 }
