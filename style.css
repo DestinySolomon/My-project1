@@ -1691,8 +1691,6 @@ article a {
   align-content: center;
   width: 80%;
   height: 50rem;
-  /* margin-left: 15%;
-  padding: 35px; */
   box-shadow: 2px 2px 7px rgb(218, 218, 218);
 }
 .contactForm input[type="textarea"] {
@@ -1753,7 +1751,7 @@ form {
 }
 }
 
-
+  
 
 /* ___MEDIA QUERIES FOR IPADS___ */
 @media screen and (min-width:768px) and (max-width: 1024px) {
@@ -1795,12 +1793,14 @@ form {
   .videos {
     display: grid;
     grid-template-columns: repeat(2, 42%);
-    gap: 35px 35px;
+    gap: 50px 45px;
     margin-top: 4%;
     margin-left: 8%;
     width: 100%;
   }
-
+  .videoClip{
+    margin-left: 12%;
+  }
   .counter {
     background-color: #0076b633;
     display: grid;
@@ -1843,6 +1843,174 @@ form {
    width: 90%;
   }
 
+  /* ____ABOUT PAGE  STYLES_______ */
+
+  .security {
+    background-color: #8ecae63e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    max-height: fit-content;
+  }
+
+  .security h2{
+    text-align: center;
+  }
+  .security p{
+    font-size: 25px;
+  }
+
+  .security hr{
+    margin-left: 45%;
+  }
+
+  .security button{
+    margin-left: 43%;
+  }
+
+  /* ____PROJECTS PAGE STYLES_____  */
+
+  .intro h1{
+    margin-top: 0;
+    padding: 0;
+  }
+  .intro p{
+    font-size: 37px;
+  }
+.plan {
+  background-color: #8ecae63e;
+  display: flex;
+  flex-direction: column;
+}
+
+.mission h5{
+  font-size: 37px;
+}
+.mission hr{
+  width: 25%;
+}
+.mission p{
+  font-size: 24px;
+}
+
+.explanation h4{
+  font-size: 37px;
+  margin-left: 0;
+}
+.explanation p{
+  font-size: 30px;
+}
+.explanation hr{
+  margin-left: 45%;
+}
+.newGoal{
+  display: block;
+}
+
+.map5{
+  height: 45vh;
+}
+ /* ____GET INVOLVED PAGE STYLES______ */
+
+ .smile {
+  background-color: #8ecae63e;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 4%; */
+  width: 100%;
+}
+
+.smileText {
+  background-color: #8ecae63e;
+  width: 100%;
+ 
+}
+
+.smileText button {
+  background-color: #03045e;
+  width: 19%;
+  /* height: 9vh; */
+  border: none;
+  /* margin-top: 40%; */
+}
+.vow button{
+  width: 40%;
+}
+
+.map4{
+  height: 45vh;
+}
+
+
+/* ____VOLUNTEER PAGE STYLES______ */
+
+.volunteerForm{
+  height: 177vh;
+}
+.volunteerForm{
+  width: 75%;
+}
+
+/* ___CONTACT FORM STYLES__ */
+
+.contactForm{
+  height: 110vh;
+}
+
+.contactForm{
+  width: 80%;
+}
+.contactForm input[type="textarea"]{
+  height: 15vh;
+}
+
+/* ____DONATE PAGE STYLES______ */
+
+.last-map {
+    height: 30vh;
+  }
+  .donation-box {
+  max-width: 90%;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.donation-box img {
+  width: 29%;
+  margin-left: 5%;
+}
+
+.donation-box h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+
+.donation-box h3 {
+  text-align: center;
+}
+form {
+  width: 75%;
+  height: 55vh;
+  margin-left: 10%;
+}
+
+.amount-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 7%;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+
+/* ____FOOTER PAGE STYLES______ */
   footer {
     margin-top: 20%;
     width: 90%;
@@ -1861,4 +2029,22 @@ form {
     margin-left: 4%;
   }
 
+
+  .vertical{
+    margin-top: 15%;
+    height: 20vh;
+  }
+  .vertical1{
+      margin-top: 15%;
+    height: 20vh;
+  }
+  .real{
+    font-size: 20px;
+  }
+  .handles{
+    margin-top: 4%;
+  }
+  .upLinks{
+    margin-top: 5%;
+  }
 }
