@@ -1869,6 +1869,10 @@ form {
     margin-left: 43%;
   }
 
+  .secure-img img{
+    width: 90%;
+  }
+
   /* ____PROJECTS PAGE STYLES_____  */
 
   .intro h1{
