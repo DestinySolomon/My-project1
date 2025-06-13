@@ -1756,7 +1756,7 @@ form {
 
 
 /* ___MEDIA QUERIES FOR IPADS___ */
-@media screen and(min-width:769px) and (max-width: 1024px) {
+@media screen and (min-width:768px) and (max-width: 1024px) {
   header {
     width: 100%;
     background-color: rgb(35, 99, 138);
@@ -1818,6 +1818,9 @@ form {
     border-radius: 1rem;
     align-content: center;
     margin-left: 7px;
+  }
+  .partners{
+    width: 100%;
   }
 
   .partners-info {
