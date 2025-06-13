@@ -1404,9 +1404,11 @@ article a {
     display: grid;
     justify-content: space-between;
     width: 90%;
+    
   }
 
   .partna1 {
+    margin-left: 4%;
     width: 97%;
   }
   .partna1 img {
@@ -1419,7 +1421,10 @@ article a {
     width: 90%;
   }
   .map-one {
+    margin-top: 11%;
+    height: 30vh;
     width: 90%;
+    margin-left: 4px;
   }
   .copy {
     width: 100%;
