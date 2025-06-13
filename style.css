@@ -1572,9 +1572,7 @@ article a {
     width: 50%;
   }
   .mission h5 {
-    width: 100%;
     font-size: 25px;
-    margin-top: 5%;
   }
 
   .mission hr {
@@ -1583,8 +1581,8 @@ article a {
   }
 
   .mission p {
-    width: 100%;
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
   }
   .foto img {
     width: 100%;
@@ -1593,6 +1591,19 @@ article a {
   .plan {
     display: flex;
     flex-direction: column;
+  }
+
+  .explanation h4 {
+    font-size: 23px;
+  }
+
+  .explanation hr {
+    margin-left: 52%;
+    width: 20%;
+  }
+
+  .newGoal h6{
+    font-size: 20px;
   }
   .fotos img{
     width: 100%;
@@ -1740,4 +1751,102 @@ form {
   justify-content: center;
   margin-bottom: 1.5rem;
 }
+}
+
+/* ___MEDIA QUERIES FOR IPADS___ */
+@media screen and(min-width:769px) and (max-width: 1024px) {
+  header {
+    width: 100%;
+    background-color: rgb(35, 99, 138);
+    display: block;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-left: 30px;
+  }
+  .logo img {
+    width: 90px;
+    height: 50px;
+  }
+  .navlist {
+    align-content: center;
+  }
+  .navlist a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    width: 40%;
+  }
+
+  .navlist a:hover {
+    background-color: darkgray;
+    color: sienna;
+  }
+  
+
+  
+  .videos {
+    display: grid;
+    grid-template-columns: repeat(2, 42%);
+    gap: 35px 35px;
+    margin-top: 4%;
+    margin-left: 8%;
+    width: 100%;
+  }
+
+  .counter {
+    background-color: #0076b633;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    height: 62vh;
+    width: 90%;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 4%;
+  }
+
+  .details {
+    border: 2px solid grey;
+    height: 31vh;
+    width: 90%;
+    border-radius: 1rem;
+    align-content: center;
+    margin-left: 7px;
+  }
+
+  .partners-info {
+    display: grid;
+    justify-content: space-between;
+    width: 90%;
+    row-gap: 20px;
+    margin-left: 3%;
+  }
+
+  .partna1 {
+    margin-left: 4%;
+    width: 97%;
+  }
+  .partna1 img {
+    margin-left: 0;
+    width: 77%;
+  }
+
+  footer {
+    margin-top: 20%;
+    width: 90%;
+  }
+  .map-one {
+    margin-top: 11%;
+    height: 30vh;
+    width: 90%;
+    margin-left: 4px;
+  }
+  .copy {
+    width: 100%;
+  }
+
 }
